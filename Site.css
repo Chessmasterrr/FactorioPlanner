@@ -1,0 +1,124 @@
+/*
+Copyright (C) 2017 Chessmasterrr
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* globally needed */
+
+.width-200 {
+    width: 200px;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+p a {
+    color:#333333;
+}
+
+.inline-element {
+    display: inline;
+}
+
+/* in header.php needed */
+
+.page-header {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    border: 0px;
+}
+
+.language-selection {
+    width: 60px;
+    margin: 10px; 
+    display: inline;
+}
+
+/* in settings.php needed */
+
+#settings {
+    border-radius: 10px; 
+    box-shadow: 10px 10px 5px grey; 
+    margin: 0px 5px;
+}
+
+.form-group-sm {
+    margin: 0px 5px; 
+    float: left;
+}
+
+#reload_button {
+    width: 30px; 
+    height: 30px; 
+    margin-top: 13px;
+}
+
+/* in main.php needed */
+
+#zoom-wrapper {
+    margin: 0 5px; 
+    position: relative;
+}
+
+.margin-10 {
+    margin-top: 10px;
+}
+
+/* in Element.php needed */
+
+.tree-element {
+    position: absolute;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 5px grey;
+}
+
+.element-header {
+    width: 100%; 
+    background-color: gray; 
+    max-height: 40px; 
+    overflow:hidden;
+}
+
+.element-image {
+        width: 50px; 
+        height: 50px;
+}
+
+hr {
+    width: 100%; 
+    height: 1px; 
+    background: gray; 
+    margin: 2px 0;
+}
+
+.producer-image {
+    width: 30px; 
+    height: 30px;
+}
+
+.svg-element {
+    position: absolute; 
+    left: 0px;
+}
+
+.line-element {
+    stroke: #333333; 
+    stroke-width:1px;
+}
