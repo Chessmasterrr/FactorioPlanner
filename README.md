@@ -35,3 +35,7 @@ public function createDependencies()
         $this->addDependency('Factorioplanner\Elements\Intermediateproduct\SulfuricAcid', 20); // and 20 sulfuric acid
     }
 ```
+# Other
+* This project tries to follow the [php standard recommendations](http://www.php-fig.org/psr/).
+* This project is licencensed under the [GNU General Public License v3.0](https://github.com/Chessmasterrr/SimpleStatsWidget/blob/master/LICENSE) except the included [Twitter Bootstrap](https://getbootstrap.com/), which is licencensed under the [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+* This project orientates the versioning on the version of the used factorio game. So the version number has the format: %FactorioVersion%.%Number% (for example 0.15.15.1 for Factorio version 0.15.15). 
