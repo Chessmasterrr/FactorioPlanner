@@ -11,10 +11,10 @@ To use the tool you can simply clone the repository in your web directory. The w
 To contribute to the project you can add a translation into your favorite language or add more elements that can be build in the game.
 
 ## Add a language
-To add a language to the tool, simply copy the `en.ini` language file in the Language folder to your language (for example `de.ini`). Replace the english words with your language and delete all phrases that you do not want to translate. Your language will than be available in the top right corner and all your translated phrases will be shown - words that you didn't translated will still be in english (default language).
+To add a language to the tool, simply copy the `en.ini` language file in the Language folder to your language (for example `de.ini`). Replace the English words with your language and delete all phrases that you do not want to translate. Your language will than be available in the top right corner and all your translated phrases will be shown - words that you did not translate will still be in English (default language).
 
 ## Add an element
-To add an element to the project, create a class in the appropriate folder (`Elements/Combat`, `Elements/IntermediateProduct`, `Elements/Logistic`, `Elements/Production` or `Elements/Ressource`) and extend the appropriate abstract class (`Element`, `Drill`, `Furnace`, `Producer` or `Ressource`). Fill the `constructor` with the needed values (name, image, link and time) and the `createDependencies` function (`setProducer` and `addDependency`) if there are any dependencies. At least add the name of the element to the `en.ini` language file under `Language`. For example:
+To add an element to the project, create a class in the appropriate folder (`Elements/Combat`, `Elements/IntermediateProduct`, `Elements/Logistic`, `Elements/Production` or `Elements/Ressource`) and extend the appropriate abstract class (`Element`, `Drill`, `Furnace`, `Producer` or `Ressource`). Fill the `constructor` with the needed values (name, image, link and time) and the `createDependencies` function (`setProducer` and `addDependency`) if there are any dependencies. Finally add the name of the element to the `en.ini` language file under `Language`. For example:
 ```php
 public function __construct($parent, $val)
     {
